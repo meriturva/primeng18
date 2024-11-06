@@ -34,14 +34,14 @@ export const appConfig: ApplicationConfig = {
 
         <h3>Standard Usage of button</h3>
         <p class="h-layout">
-          <p-button label="Label" icon="pi pi-check" />
+          <p-button label="Label" icon="pi pi-check" iconPos="right" />
           <p-button icon="pi pi-check" />
         </p>
 
         <h3>Wrong Usage of button content</h3>
         <p class="h-layout">
           <p-button [loading]="true">Content</p-button>
-          <p-button icon="pi pi-check" iconPos="right">Content & Icon</p-button>
+          <p-button icon="pi pi-check">Content & Icon</p-button>
         </p>
 
         <h3>Right Usage of button content for custom buttons</h3>
